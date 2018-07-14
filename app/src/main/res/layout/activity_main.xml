@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+
+
+
+    <EditText
+        android:id="@+id/empid"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:hint="empid"
+        android:gravity="center"
+        android:defaultFocusHighlightEnabled="true"
+        android:background="@drawable/edittext_round"
+        android:inputType="numberSigned|numberDecimal"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="112dp"
+        android:ems="10"
+        android:gravity="center"
+        android:background="@drawable/edittext_round"
+        android:hint="name"
+        />
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="230dp"
+        android:layout_height="40dp"
+        android:textColor="#000000"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="182dp"
+        android:ems="10"
+        android:gravity="center"
+        android:background="@drawable/edittext_round"
+        android:hint="city"
+
+        />
+
+
+    <Button
+        android:id="@+id/add1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="87dp"
+        android:layout_marginStart="64dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_round"
+        android:text="add" />
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/add1"
+        android:layout_marginEnd="57dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_round"
+        android:text="view" />
+
+    <Button
+        android:id="@+id/update1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/add1"
+        android:layout_marginBottom="20dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_round"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/delete1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/view"
+        android:layout_alignTop="@+id/update1"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_round"
+        android:text="Dlelete" />
+
+
+</RelativeLayout>
