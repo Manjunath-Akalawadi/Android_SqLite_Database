@@ -24,7 +24,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
 
-        db.execSQL(" create table "+ TABLE_NAME +"(ID TEXT NOT NULL, NAME TEXT , CITY TEXT)");
+        db.execSQL(" create table "+ TABLE_NAME +"("+COL1+" TEXT PRIMARY KEY ,"+COL2+" TEXT , "+COL3+" TEXT)");
 
     }
 

@@ -54,13 +54,19 @@ public class MainActivity extends AppCompatActivity {
 
                 if (isInserted=true){
 
-                    Toast.makeText(MainActivity.this,"Data Inserted",Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this,"Id :"+textid.getText().toString()+ " created successfully",Toast.LENGTH_LONG).show();
 
                 }else {
 
-                    Toast.makeText(MainActivity.this,"Data Not Inserted",Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this,"Id :"+textid.getText().toString()+ " not created successfully",Toast.LENGTH_LONG).show();
                 }
+
+                textid.setText("");
+                textname.setText("");
+                textcity.setText("");
             }
+
+
         });
 
     }
@@ -116,13 +122,20 @@ public class MainActivity extends AppCompatActivity {
 
                 if (isUpdate=true){
 
-                    Toast.makeText(MainActivity.this,"Data Updated",Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this,"Id :"+textid.getText().toString()+ " updated successfully",Toast.LENGTH_LONG).show();
 
                 }else {
 
-                    Toast.makeText(MainActivity.this,"Data Not Updated",Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this,"Id :"+textid.getText().toString()+ " not updated successfully",Toast.LENGTH_LONG).show();
+
                 }
+
+                textid.setText("");
+                textname.setText("");
+                textcity.setText("");
             }
+
+
         });
     }
 
@@ -136,14 +149,18 @@ public class MainActivity extends AppCompatActivity {
 
                 if (deleteRows>0){
 
-                    Toast.makeText(MainActivity.this,"Data Deleted",Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this,"Id :"+textid.getText().toString()+ " deleted successfully",Toast.LENGTH_LONG).show();
 
 
                 }else {
 
-                    Toast.makeText(MainActivity.this,"Data not Deleted",Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this,"Id :"+textid.getText().toString()+ " not deleted successfully",Toast.LENGTH_LONG).show();
 
                 }
+
+                textid.setText("");
+                textname.setText("");
+                textcity.setText("");
             }
         });
     }

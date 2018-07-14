@@ -7,9 +7,6 @@
 
     tools:context=".MainActivity">
 
-
-
-
     <EditText
         android:id="@+id/empid"
         android:layout_width="230dp"
@@ -62,11 +59,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="87dp"
-        android:layout_marginStart="64dp"
-        android:textColor="#ffffff"
+        android:layout_marginBottom="204dp"
+        android:layout_marginStart="59dp"
         android:background="@drawable/button_round"
-        android:text="add" />
+        android:text="add"
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/view"
@@ -85,10 +82,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignStart="@+id/add1"
-        android:layout_marginBottom="20dp"
-        android:textColor="#ffffff"
+        android:layout_marginBottom="121dp"
         android:background="@drawable/button_round"
-        android:text="Update" />
+        android:text="Update"
+        android:textColor="#ffffff" />
 
     <Button
         android:id="@+id/delete1"
