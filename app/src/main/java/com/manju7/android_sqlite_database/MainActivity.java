@@ -41,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-
     public void AddData(){
 
         buttonAdd.setOnClickListener(new View.OnClickListener() {
@@ -70,8 +69,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-
-
 
     public  void  viewAll(){
 
@@ -109,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
         builder.setMessage(Message);
         builder.show();
     }
+
 
     public void UpdateData(){
 
@@ -164,5 +162,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
 }
